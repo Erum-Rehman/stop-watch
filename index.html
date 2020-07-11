@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=d.0">
+    <title>Stop_Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+   <div class="container-fluid1 bg">
+        <div class="col-md-12  pt-30" style= "font-family: serif; font-weight: 600; text-align: center;">
+            <h1 class="head">
+                Stop Watch
+            </h1>
+        </div>
+        <div id="time" class="col-md-12 pt-50">
+            <h2 id="min">0m</h2>
+            <h2 id="sec">0s</h2>
+            <h2 id="msec">0</h2>
+        </div>
+        <div style="text-align: center;">
+            <img class="images1" src="images/download.png" alt="" onclick="start()"  > 
+            <img class="images1" src="images/download (3).png" alt="" onclick="stop()"> 
+            <img class="images1" src="images/download (4).png" alt="" onclick="reset()"> 
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
